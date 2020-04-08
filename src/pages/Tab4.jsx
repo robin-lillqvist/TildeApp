@@ -1,26 +1,26 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import AmerikanskaDjur from '../components/AmerikanskaDjur';
+import Personer from '../components/Personer';
 import './Tab3.css';
 
-const Tab3 = () => {
+const Tab4 = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Amerikanska djur</IonTitle>
+          <IonTitle>Personer</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Amerikanska djur</IonTitle>
+            <IonTitle size="large">Personer</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <AmerikanskaDjur/>
+        <Personer/>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab3;
+export default Tab4;
