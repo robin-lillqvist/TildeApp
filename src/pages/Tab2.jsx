@@ -6,7 +6,7 @@ import {
   IonTitle,
   IonToolbar
 } from '@ionic/react'
-import AfrikanskaDjur from '../components/AfrikanskaDjur'
+import Vehicles from '../components/Vehicles'
 import './Tab2.css'
 
 const Tab2 = () => {
@@ -14,16 +14,16 @@ const Tab2 = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Afrikanska djur</IonTitle>
+          <IonTitle>Fordon</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse='condense'>
           <IonToolbar>
-            <IonTitle size='large'>Afrikanska djur</IonTitle>
+            <IonTitle size='large'>Fordon</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <AfrikanskaDjur />
+        <Vehicles />
       </IonContent>
     </IonPage>
   )

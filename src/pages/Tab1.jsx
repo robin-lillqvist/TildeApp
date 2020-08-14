@@ -4,9 +4,9 @@ import {
   IonHeader,
   IonPage,
   IonTitle,
-  IonToolbar,
+  IonToolbar
 } from '@ionic/react'
-import SvenskaDjur from '../components/SvenskaDjur'
+import Animals from '../components/Animals'
 import './Tab1.css'
 
 const Tab1 = () => {
@@ -14,16 +14,16 @@ const Tab1 = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Svenska djur</IonTitle>
+          <IonTitle>Djur</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse='condense'>
           <IonToolbar>
-            <IonTitle size='large'>Svenska djur</IonTitle>
+            <IonTitle size='large'>Djur</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <SvenskaDjur />
+        <Animals />
       </IonContent>
     </IonPage>
   )
