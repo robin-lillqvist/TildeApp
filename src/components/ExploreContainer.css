@@ -2,11 +2,6 @@
   text-align: center;
   padding: 1vw 1vh;
   margin: 1vw 1vh;
-  /* position: absolute; 
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%); */
 }
 
 .container strong {
@@ -28,4 +23,9 @@
 img {
   margin: 1vh 2vw;
   width: 300px;
+  /* border: 5px solid white!important; */
+}
+
+ion-card{
+  max-width: 40vw;
 }
